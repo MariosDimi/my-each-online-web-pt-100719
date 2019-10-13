@@ -1,4 +1,4 @@
 devices = ["cell-phone","computer","tablet"]
-def my_each(devices)
-  # code here
+def my_each(devices) do |i|
+  puts i
 end
